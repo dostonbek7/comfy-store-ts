@@ -405,7 +405,7 @@ const FormInput = ({ label, name, type, defaultValue }) => {
       <input
         type={type}
         name={name}
-        defaultValue={defaultValue} 
+        defaultValue={defaultValue}
         className='input input-bordered '
       />
     </div>
