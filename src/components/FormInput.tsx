@@ -2,7 +2,7 @@ type inputs={
   label:string,
   name:string,
   type:string,
-  defaultValue:string
+  defaultValue?:string
 }
 function FormInput({label, name, type, defaultValue}:inputs) {
   return (
