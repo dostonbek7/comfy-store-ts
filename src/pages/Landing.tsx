@@ -1,7 +1,11 @@
+import Hero from "../components/Hero";
+
 function Landing() {
   return (
-    <div>Landing</div>
-  )
+    <>
+      <Hero />
+    </>
+  );
 }
 
-export default Landing
+export default Landing;
