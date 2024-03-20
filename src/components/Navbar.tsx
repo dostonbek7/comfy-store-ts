@@ -3,7 +3,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import { NavLinks, Toggle } from ".";
 
-const Navbar = () => {
+function Navbar() {
   return (
     <nav className="bg-base-200">
       <div className="navbar align-element ">
@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Toggle/>
+          <Toggle />
           {/* CART LINK*/}
           <NavLink to="cart" className="btn btn-ghost btn-circle btn-md ml-4">
             <div className="indicator">
@@ -48,5 +48,5 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+}
 export default Navbar;
