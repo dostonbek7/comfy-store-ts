@@ -6,8 +6,8 @@ export default {
     extend: {},
   },
  darkMode:"class",
-  daisyui: {
-    themes: ["light", "dark"],
-  },
+ daisyui: {
+  themes: ['winter', 'dracula'],
+},
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 }
