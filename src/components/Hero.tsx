@@ -8,7 +8,7 @@ function Hero() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
       <div className="">
-        <h1 className="max-w-2xl text-6xl font-bold tracking-tight">
+        <h1 className="max-w-2xl text-4xl sm:text-6xl font-bold tracking-tight">
           We are changing the way people shop
         </h1>
         <p className="mt-8 max-w-xl text-lg leading-8">
