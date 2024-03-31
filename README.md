@@ -1557,7 +1557,7 @@ const SingleProduct = () => {
                     className={`badge  w-6 h-6 mr-2  ${
                       color === productColor && 'border-2 border-secondary'
                     }`}
-                    style={{ backgroundColor: color }}
+                     style={{ backgroundColor: color }}
                     onClick={() => setProductColor(color)}
                   ></button>
                 );
